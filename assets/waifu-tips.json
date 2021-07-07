@@ -30,7 +30,7 @@
         },
         "model_message": {
             "1": ["来自 Potion Maker 的 Pio 酱 ~"],
-            "2": ["来自 Potion Maker 的 Tia 酱 ~"]  
+            "2": ["来自 Potion Maker 的 Tia 酱 ~"]
         },
         "hitokoto_api_message": {
             "lwl12.com": ["这句一言来自 <span style=\"color:#0099cc;\">『{source}』</span>", "，是 <span style=\"color:#0099cc;\">{creator}</span> 投稿的", "。"],
@@ -42,7 +42,7 @@
     "mouseover": [
         { "selector": ".container a[href^='http']", "text": ["要看看 <span style=\"color:#0099cc;\">{text}</span> 么？"] },
         { "selector": ".fui-home", "text": ["点击前往首页，想回到上一页可以使用浏览器的后退功能哦"] },
-        { "selector": ".fui-chat", "text": ["一言一语，一颦一笑。一字一句，一颗赛艇。"] },
+        { "selector": ".fui-chat", "text": ["我从青蛙王子那里听到了不少人生经验。"] },
         { "selector": ".fui-eye", "text": ["嗯··· 要切换 看板娘 吗？"] },
         { "selector": ".fui-user", "text": ["喜欢换装 Play 吗？"] },
         { "selector": ".fui-photo", "text": ["要拍张纪念照片吗？"] },
@@ -72,18 +72,16 @@
         { "selector": "c-player div.lyric-button", "text": ["有<span style=\"color:#0099cc;\">歌词</span>的话就能跟着一起唱呢"] },
         { "selector": ".waifu #live2d", "text": ["干嘛呢你，快把手拿开", "鼠…鼠标放错地方了！"] }
     ],
-    "click": [
-        {
-            "selector": ".waifu #live2d",
-            "text": [
-                "是…是不小心碰到了吧",
-                "萝莉控是什么呀",
-                "你看到我的小熊了吗",
-                "再摸的话我可要报警了！⌇●﹏●⌇",
-                "110吗，这里有个变态一直在摸我(ó﹏ò｡)"
-            ]
-        }
-    ],
+    "click": [{
+        "selector": ".waifu #live2d",
+        "text": [
+            "是…是不小心碰到了吧",
+            "萝莉控是什么呀",
+            "你看到我的小熊了吗",
+            "再摸的话我可要报警了！⌇●﹏●⌇",
+            "110吗，这里有个变态一直在摸我(ó﹏ò｡)"
+        ]
+    }],
     "seasons": [
         { "date": "01/01", "text": ["<span style=\"color:#0099cc;\">元旦</span>了呢，新的一年又开始了，今年是{year}年~"] },
         { "date": "02/14", "text": ["又是一年<span style=\"color:#0099cc;\">情人节</span>，{year}年找到对象了嘛~"] },
